@@ -34,7 +34,8 @@ public class PersonDataAccessor {
                 String tempMin = rs.getString("temp_wew_db");
                 String tempMaks = rs.getString("temp_zew_db");
                 String dataPomiaru = rs.getString("data");
-                Weather person = new Weather(tempMin, tempMaks, dataPomiaru);
+                String wilgotnosc = rs.getString("wilgotnosc");
+                Weather person = new Weather(tempMin, tempMaks, dataPomiaru, wilgotnosc);
                 personList.add(person);
             }
             return personList ;

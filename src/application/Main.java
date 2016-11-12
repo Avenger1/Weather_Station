@@ -16,7 +16,7 @@ public class Main extends Application {
 		Scene scene = new Scene(root);
 		primaryStage.setScene(scene);
 		primaryStage.sizeToScene();
-		primaryStage.setTitle("Weather station by Bartek & Tomek v.0.1");
+		primaryStage.setTitle("Weather station by Bartek & Tomek v.0.2");
 		primaryStage.show();
 		}
 	

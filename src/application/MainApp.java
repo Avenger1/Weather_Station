@@ -27,7 +27,7 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Label lbl = new Label("Enter text below to filter: ");
+        Label lbl = new Label("");
         initFilter();
         initTable();
         VBox container = new VBox();
